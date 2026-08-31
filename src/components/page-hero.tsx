@@ -3,9 +3,9 @@ import type { ReactNode } from "react";
 export function PageHero({ eyebrow, title, description, image, children }: { eyebrow: string; title: string; description: string; image?: string; children?: ReactNode }) {
   return (
     <section className="relative min-h-[72vh] overflow-hidden border-b border-border pt-36">
-      {image && <img src={image} alt="" className="absolute inset-0 size-full object-cover opacity-35" />}
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-background/20" />
-      <div className="fine-grid absolute inset-0 opacity-40" />
+      {image && <img src={image} alt="" className="absolute inset-0 size-full object-cover opacity-20" />}
+      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-background/50" />
+      <div className="fine-grid absolute inset-0 opacity-30" />
       <div className="page-shell relative z-10 flex min-h-[55vh] flex-col justify-end pb-16">
         <p className="mb-5 text-xs font-bold uppercase text-secondary">{eyebrow}</p>
         <h1 className="display-serif max-w-4xl text-6xl text-ice sm:text-7xl lg:text-8xl">{title}</h1>
