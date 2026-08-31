@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as ReviewsRouteImport } from './routes/reviews'
 import { Route as TechnologyRouteImport } from './routes/technology'
 import { Route as TreatmentsRouteImport } from './routes/treatments'
 
@@ -30,6 +31,11 @@ const ContactRoute = ContactRouteImport.update({
   path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ReviewsRoute = ReviewsRouteImport.update({
+  id: '/reviews',
+  path: '/reviews',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TechnologyRoute = TechnologyRouteImport.update({
   id: '/technology',
   path: '/technology',
@@ -45,6 +51,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/reviews': typeof ReviewsRoute
   '/technology': typeof TechnologyRoute
   '/treatments': typeof TreatmentsRoute
 }
@@ -52,6 +59,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/reviews': typeof ReviewsRoute
   '/technology': typeof TechnologyRoute
   '/treatments': typeof TreatmentsRoute
 }
@@ -60,21 +68,31 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/contact': typeof ContactRoute
+  '/reviews': typeof ReviewsRoute
   '/technology': typeof TechnologyRoute
   '/treatments': typeof TreatmentsRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/contact' | '/technology' | '/treatments'
+  fullPaths:
+    '/' | '/about' | '/contact' | '/reviews' | '/technology' | '/treatments'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/contact' | '/technology' | '/treatments'
-  id: '__root__' | '/' | '/about' | '/contact' | '/technology' | '/treatments'
+  to: '/' | '/about' | '/contact' | '/reviews' | '/technology' | '/treatments'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/contact'
+    | '/reviews'
+    | '/technology'
+    | '/treatments'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   ContactRoute: typeof ContactRoute
+  ReviewsRoute: typeof ReviewsRoute
   TechnologyRoute: typeof TechnologyRoute
   TreatmentsRoute: typeof TreatmentsRoute
 }
@@ -102,6 +120,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/reviews': {
+      id: '/reviews'
+      path: '/reviews'
+      fullPath: '/reviews'
+      preLoaderRoute: typeof ReviewsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/technology': {
       id: '/technology'
       path: '/technology'
@@ -123,6 +148,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   ContactRoute: ContactRoute,
+  ReviewsRoute: ReviewsRoute,
   TechnologyRoute: TechnologyRoute,
   TreatmentsRoute: TreatmentsRoute,
 }

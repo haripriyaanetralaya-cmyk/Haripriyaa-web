@@ -8,6 +8,7 @@ const nav = [
   ["About", "/about"],
   ["Treatments", "/treatments"],
   ["Technology", "/technology"],
+  ["Reviews", "/reviews"],
   ["Contact", "/contact"],
 ] as const;
 
@@ -24,7 +25,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
             ))}
           </nav>
           <div className="flex items-center gap-2">
-            <Link to="/contact" className="hidden rounded-full bg-primary px-5 py-2.5 text-xs font-bold text-primary-foreground shadow-lg shadow-primary/30 transition hover:bg-accent sm:inline-flex">Book Appointment</Link>
+            <Link to="/contact" className="hidden rounded-full bg-primary px-5 py-2.5 text-xs font-bold text-primary-foreground shadow-lg shadow-primary/20 transition hover:bg-accent sm:inline-flex">Book Appointment</Link>
             <button onClick={() => setOpen((value) => !value)} className="flex size-10 items-center justify-center rounded-full border border-border bg-muted text-ice lg:hidden" aria-label="Toggle menu">{open ? <X className="size-4" /> : <Menu className="size-4" />}</button>
           </div>
         </div>
@@ -39,7 +40,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
       <footer className="border-t border-border bg-panel">
         <div className="page-shell py-16">
           <div className="mb-16 flex flex-col items-start justify-between gap-8 border-b border-border pb-12 md:flex-row md:items-end">
-            <h2 className="display-serif max-w-2xl text-5xl text-ice md:text-7xl">Transform your vision with us.</h2>
+            <h2 className="display-serif max-w-2xl text-5xl text-ice md:text-7xl">Transform your vision with Dr. Neeta Ramesh Patil.</h2>
             <Link to="/contact" className="rounded-full bg-primary px-7 py-3.5 text-sm font-bold text-primary-foreground transition hover:bg-accent">Book an appointment</Link>
           </div>
           <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
