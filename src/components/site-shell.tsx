@@ -45,7 +45,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
           </div>
           <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
             <div><Brand /><p className="mt-5 max-w-xs text-sm leading-6 text-muted-foreground">Advanced ophthalmology delivered with precision, empathy and transparent guidance.</p></div>
-            <div><p className="mb-4 text-xs font-bold uppercase text-secondary">Visit</p><p className="flex gap-2 text-sm leading-6 text-muted-foreground"><MapPin className="mt-1 size-4 shrink-0" />Near Shivparvati Theatre,<br />Peth–Sangli Road, Islampur</p></div>
+            <div><p className="mb-4 text-xs font-bold uppercase text-secondary">Visit</p><p className="flex gap-2 text-sm leading-6 text-muted-foreground"><MapPin className="mt-1 size-4 shrink-0" />Haripriyaa Netralaya, Near Shivparvati Theatre,<br />Infront of Sushrusha Hospital, Peth–Sangli Road,<br />Islampur, Tal. Walwa, Urun-Ishwarpur,<br />Dist. Sangli, Maharashtra 415409</p></div>
             <div><p className="mb-4 text-xs font-bold uppercase text-secondary">Contact</p><a href="tel:+919876543210" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-ice"><Phone className="size-4" />+91 98765 43210</a><a href="https://wa.me/919876543210" className="mt-3 block text-sm text-muted-foreground hover:text-ice">WhatsApp consultation</a></div>
             <div><p className="mb-4 text-xs font-bold uppercase text-secondary">OPD Hours</p><p className="flex gap-2 text-sm leading-6 text-muted-foreground"><Clock3 className="mt-1 size-4 shrink-0" />Mon–Sat<br />10:00–1:30 & 5:00–8:30</p></div>
           </div>
