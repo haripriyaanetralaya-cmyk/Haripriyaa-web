@@ -18,11 +18,23 @@ export const Route = createFileRoute("/")({
 });
 
 const treatments = [
-  { n: "01", title: "Painless cataract surgery", text: "Stitchless, injection-free Phaco and MICS techniques designed for clarity and rapid recovery." },
-  { n: "02", title: "Retina & diabetic eye care", text: "Detailed retinal imaging, laser diagnostics and ongoing monitoring that protects long-term vision." },
-  { n: "03", title: "Glaucoma & vision screening", text: "Pressure checks and automated visual field testing for early, evidence-led intervention." },
-  { n: "04", title: "High-definition opticals", text: "Personalized anti-glare, blue-filter and premium lens guidance, all under one roof." },
+  { n: "01", title: "Painless cataract surgery", mr: "बिना इंजेक्शन, बिना टाक्यांचे मोतीबिंदू ऑपरेशन", text: "Stitchless, injection-free, bandage-free Phaco and MICS techniques designed for clarity and rapid recovery.", image: heroImage },
+  { n: "02", title: "Eye wart (मोस) removal", mr: "डोळ्यांवरील मोस काढणे", text: "Safe, precise removal of eye warts and lid growths performed without injections or stitches.", image: clinicImage },
+  { n: "03", title: "Stitchless laser surgery", mr: "लेसर ऑपरेशन — बिना टाक्यांचे", text: "Laser procedures completed without sutures, keeping the eye comfortable and healing time short.", image: technologyImage },
+  { n: "04", title: "Computerized spectacle power", mr: "Computer ने अचूक चष्म्याचा नंबर", text: "Computer-assisted refraction for an accurate spectacle number, measured to fine precision.", image: clinicImage },
+  { n: "05", title: "Eye injury & trauma care", mr: "डोळ्यांवरील आघातांवर उपचार", text: "Prompt assessment and treatment for eye injuries, foreign bodies and accidental trauma.", image: heroImage },
+  { n: "06", title: "Ayurvedic eye therapies", mr: "तर्पण, शिरोधारा व इतर आयुर्वेदिक चिकित्सा", text: "Tarpana, Shirodhara and allied therapies for Diabetic Retinopathy and digital eye strain.", image: technologyImage },
+  { n: "07", title: "Retina & diabetic eye care", mr: "पडदा व मधुमेह नेत्रतपासणी", text: "Detailed retinal imaging, laser diagnostics and ongoing monitoring that protects long-term vision.", image: clinicImage },
+  { n: "08", title: "Glaucoma & vision screening", mr: "काचबिंदू व दृष्टी तपासणी", text: "Pressure checks and automated visual field testing for early, evidence-led intervention.", image: heroImage },
+  { n: "09", title: "Affordable, attractive spectacles", mr: "परवडणारे व आकर्षक चष्मे", text: "Anti-glare, blue-filter and premium lenses in stylish frames—quality eyewear at fair prices.", image: technologyImage },
 ];
+
+const facilities = [
+  { title: "Discharge within half an hour after surgery", mr: "ऑपरेशन नंतर अर्ध्या तासात डिस्चार्ज" },
+  { title: "Vehicle facility for outstation patients", mr: "परगावच्या रुग्णांसाठी वाहनाची सोय" },
+  { title: "Injection-free, bandage-free, stitchless surgery", mr: "बिना इंजेक्शन, बिना पट्टी, बिना टाक्यांचे ऑपरेशन" },
+];
+
 
 const reviews = [
   ["Meera Patil", "Islampur", "The cataract procedure was comfortable and the team explained every step. My vision was brighter the very next morning."],
@@ -74,8 +86,12 @@ function HomePage() {
       <div className="page-shell">
         <div className="flex items-end justify-between gap-6"><div><p className="text-xs font-bold uppercase text-secondary">Signature treatments</p><h2 className="display-serif mt-4 text-5xl text-ice sm:text-7xl">Precision at every step.</h2></div><Link to="/treatments" className="hidden text-sm font-bold text-secondary sm:block">View all treatments <ArrowUpRight className="ml-1 inline size-4" /></Link></div>
         <div className="mt-14 divide-y divide-border border-y border-border">
-          {treatments.map((item, index) => <article key={item.n} className="group grid gap-5 py-9 md:grid-cols-[4rem_1fr_1fr_auto] md:items-center"><span className="font-serif text-2xl text-secondary">{item.n}</span><h3 className="font-serif text-3xl text-ice transition group-hover:text-secondary">{item.title}</h3><p className="text-sm leading-6 text-muted-foreground">{item.text}</p><Link to="/treatments" className="flex size-11 items-center justify-center rounded-full border border-border text-ice transition hover:bg-primary hover:text-primary-foreground" aria-label={`View ${item.title}`}><ArrowUpRight className="size-4" /></Link><div className="col-span-full grid h-24 grid-cols-3 gap-2 md:ml-16"><img src={index % 2 ? clinicImage : heroImage} loading="lazy" alt="Eye care consultation" className="size-full rounded-md object-cover" /><img src={index % 2 ? heroImage : technologyImage} loading="lazy" alt="Eye diagnostic procedure" className="size-full rounded-md object-cover" /><img src={index % 2 ? technologyImage : clinicImage} loading="lazy" alt="Modern ophthalmology equipment" className="size-full rounded-md object-cover" /></div></article>)}
+          {treatments.map((item) => <article key={item.n} className="group grid gap-5 py-8 md:grid-cols-[3rem_9rem_1fr_1fr_auto] md:items-center md:gap-6"><span className="font-serif text-2xl text-secondary">{item.n}</span><img src={item.image} loading="lazy" width={400} height={300} alt={item.title} className="h-24 w-full rounded-md object-cover md:h-20" /><div><h3 className="font-serif text-2xl text-ice transition group-hover:text-secondary">{item.title}</h3><p className="mt-1 text-sm text-secondary">{item.mr}</p></div><p className="text-sm leading-6 text-muted-foreground">{item.text}</p><Link to="/treatments" className="flex size-11 shrink-0 items-center justify-center rounded-full border border-border text-ice transition hover:bg-primary hover:text-primary-foreground" aria-label={`View ${item.title}`}><ArrowUpRight className="size-4" /></Link></article>)}
         </div>
+        <div className="mt-12 grid gap-4 md:grid-cols-3">
+          {facilities.map((item) => <div key={item.title} className="rounded-lg border border-border bg-card p-6"><Check className="size-5 text-secondary" /><p className="mt-4 font-serif text-xl text-ice">{item.title}</p><p className="mt-2 text-sm text-secondary">{item.mr}</p></div>)}
+        </div>
+
       </div>
     </section>
 
