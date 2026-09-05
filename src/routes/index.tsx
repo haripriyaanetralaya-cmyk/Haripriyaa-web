@@ -18,11 +18,23 @@ export const Route = createFileRoute("/")({
 });
 
 const treatments = [
-  { n: "01", title: "Painless cataract surgery", text: "Stitchless, injection-free Phaco and MICS techniques designed for clarity and rapid recovery." },
-  { n: "02", title: "Retina & diabetic eye care", text: "Detailed retinal imaging, laser diagnostics and ongoing monitoring that protects long-term vision." },
-  { n: "03", title: "Glaucoma & vision screening", text: "Pressure checks and automated visual field testing for early, evidence-led intervention." },
-  { n: "04", title: "High-definition opticals", text: "Personalized anti-glare, blue-filter and premium lens guidance, all under one roof." },
+  { n: "01", title: "Painless cataract surgery", mr: "बिना इंजेक्शन, बिना टाक्यांचे मोतीबिंदू ऑपरेशन", text: "Stitchless, injection-free, bandage-free Phaco and MICS techniques designed for clarity and rapid recovery.", image: heroImage },
+  { n: "02", title: "Eye wart (मोस) removal", mr: "डोळ्यांवरील मोस काढणे", text: "Safe, precise removal of eye warts and lid growths performed without injections or stitches.", image: clinicImage },
+  { n: "03", title: "Stitchless laser surgery", mr: "लेसर ऑपरेशन — बिना टाक्यांचे", text: "Laser procedures completed without sutures, keeping the eye comfortable and healing time short.", image: technologyImage },
+  { n: "04", title: "Computerized spectacle power", mr: "Computer ने अचूक चष्म्याचा नंबर", text: "Computer-assisted refraction for an accurate spectacle number, measured to fine precision.", image: clinicImage },
+  { n: "05", title: "Eye injury & trauma care", mr: "डोळ्यांवरील आघातांवर उपचार", text: "Prompt assessment and treatment for eye injuries, foreign bodies and accidental trauma.", image: heroImage },
+  { n: "06", title: "Ayurvedic eye therapies", mr: "तर्पण, शिरोधारा व इतर आयुर्वेदिक चिकित्सा", text: "Tarpana, Shirodhara and allied therapies for Diabetic Retinopathy and digital eye strain.", image: technologyImage },
+  { n: "07", title: "Retina & diabetic eye care", mr: "पडदा व मधुमेह नेत्रतपासणी", text: "Detailed retinal imaging, laser diagnostics and ongoing monitoring that protects long-term vision.", image: clinicImage },
+  { n: "08", title: "Glaucoma & vision screening", mr: "काचबिंदू व दृष्टी तपासणी", text: "Pressure checks and automated visual field testing for early, evidence-led intervention.", image: heroImage },
+  { n: "09", title: "Affordable, attractive spectacles", mr: "परवडणारे व आकर्षक चष्मे", text: "Anti-glare, blue-filter and premium lenses in stylish frames—quality eyewear at fair prices.", image: technologyImage },
 ];
+
+const facilities = [
+  { title: "Discharge within half an hour after surgery", mr: "ऑपरेशन नंतर अर्ध्या तासात डिस्चार्ज" },
+  { title: "Vehicle facility for outstation patients", mr: "परगावच्या रुग्णांसाठी वाहनाची सोय" },
+  { title: "Injection-free, bandage-free, stitchless surgery", mr: "बिना इंजेक्शन, बिना पट्टी, बिना टाक्यांचे ऑपरेशन" },
+];
+
 
 const reviews = [
   ["Meera Patil", "Islampur", "The cataract procedure was comfortable and the team explained every step. My vision was brighter the very next morning."],
