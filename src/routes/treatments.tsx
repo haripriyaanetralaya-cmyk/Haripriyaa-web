@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Check, Clock3, Stethoscope } from "lucide-react";
-import heroImageAsset from "@/assets/doctor-examining-patient.png.asset.json";
+import heroImageAsset from "@/assets/doctor-consultation.png.asset.json";
 const heroImage = heroImageAsset.url;
 import { PageHero } from "@/components/page-hero";
 
