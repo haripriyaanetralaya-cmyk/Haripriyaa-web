@@ -275,7 +275,7 @@ function TreatmentsPage() {
                     ))}
                   </ol>
                   <a
-                    href={`https://wa.me/919876543210?text=${encodeURIComponent(
+                    href={`https://wa.me/919975335457?text=${encodeURIComponent(
                       `I would like to consult Dr. Neeta Ramesh Patil about ${service.titleEn}.`
                     )}`}
                     className="mt-6 inline-flex rounded-full bg-primary px-5 py-3 text-sm font-bold text-primary-foreground"
