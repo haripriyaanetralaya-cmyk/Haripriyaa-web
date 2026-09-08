@@ -3,6 +3,7 @@ import { Check, Clock3, Stethoscope } from "lucide-react";
 import heroImageAsset from "@/assets/doctor-consultation.png.asset.json";
 const heroImage = heroImageAsset.url;
 import { PageHero } from "@/components/page-hero";
+import { useLang } from "@/lib/i18n";
 
 export const Route = createFileRoute("/treatments")({
   head: () => ({
@@ -185,12 +186,14 @@ const services = [
 ];
 
 function TreatmentsPage() {
+  const { t, lang } = useLang();
+  const mr = lang === "mr";
   return (
     <>
       <PageHero
-        eyebrow="Treatments & services"
-        title="Precision care for every stage of vision."
-        description="Understand your symptoms, your options and your path to recovery with Dr. Neeta Ramesh Patil—without medical jargon."
+        eyebrow={t("Treatments & services")}
+        title={t("Precision care for every stage of vision.")}
+        description={t("Understand your symptoms, your options and your path to recovery with Dr. Neeta Ramesh Patil—without medical jargon.")}
         image={heroImage}
       />
 
@@ -207,34 +210,34 @@ function TreatmentsPage() {
                     0{index + 1}
                   </p>
                   <h2 className="mt-4 font-serif text-2xl text-ice sm:text-3xl">
-                    {service.titleEn}
+                    {mr ? service.titleMr : service.titleEn}
                   </h2>
                   <p className="mt-2 font-serif text-lg leading-snug text-secondary">
-                    {service.titleMr}
+                    {mr ? service.titleEn : service.titleMr}
                   </p>
                   <p className="mt-5 inline-flex items-center gap-2 text-xs font-bold uppercase text-secondary">
                     <Stethoscope className="size-4" />
-                    {service.tech.en}
+                    {mr ? service.tech.mr : service.tech.en}
                   </p>
                   <p className="mt-1 text-xs font-bold uppercase text-secondary/80">
-                    {service.tech.mr}
+                    {mr ? service.tech.en : service.tech.mr}
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xs font-bold uppercase text-secondary">
-                    When to get checked
+                    {t("When to get checked")}
                   </h3>
                   <p className="text-xs font-bold uppercase text-secondary/80">
-                    कधी तपासणी करावी
+                    {mr ? "When to get checked" : "कधी तपासणी करावी"}
                   </p>
                   <div className="mt-4 space-y-3">
                     {service.symptoms.map((item) => (
                       <div key={item.en} className="flex gap-2 text-sm">
                         <Check className="mt-1 size-4 shrink-0 text-secondary" />
                         <div>
-                          <p className="text-muted-foreground">{item.en}</p>
-                          <p className="text-secondary/80">{item.mr}</p>
+                          <p className="text-muted-foreground">{mr ? item.mr : item.en}</p>
+                          <p className="text-secondary/80">{mr ? item.en : item.mr}</p>
                         </div>
                       </div>
                     ))}
@@ -242,10 +245,10 @@ function TreatmentsPage() {
                   <p className="mt-7 flex gap-2 border-t border-border pt-5 text-sm leading-6 text-muted-foreground">
                     <Clock3 className="mt-1 size-4 shrink-0 text-secondary" />
                     <span>
-                      {service.recovery.en}
+                      {mr ? service.recovery.mr : service.recovery.en}
                       <br />
                       <span className="text-secondary/80">
-                        {service.recovery.mr}
+                        {mr ? service.recovery.en : service.recovery.mr}
                       </span>
                     </span>
                   </p>
@@ -253,10 +256,10 @@ function TreatmentsPage() {
 
                 <div>
                   <h3 className="text-xs font-bold uppercase text-secondary">
-                    Your care pathway
+                    {t("Your care pathway")}
                   </h3>
                   <p className="text-xs font-bold uppercase text-secondary/80">
-                    तुमच्या काळजीचा मार्ग
+                    {mr ? "Your care pathway" : "तुमच्या काळजीचा मार्ग"}
                   </p>
                   <ol className="mt-4 space-y-3">
                     {service.steps.map((item, i) => (
@@ -268,8 +271,8 @@ function TreatmentsPage() {
                           {i + 1}
                         </span>
                         <div>
-                          <p>{item.en}</p>
-                          <p className="text-secondary/80">{item.mr}</p>
+                          <p>{mr ? item.mr : item.en}</p>
+                          <p className="text-secondary/80">{mr ? item.en : item.mr}</p>
                         </div>
                       </li>
                     ))}
@@ -280,7 +283,7 @@ function TreatmentsPage() {
                     )}`}
                     className="mt-6 inline-flex rounded-full bg-primary px-5 py-3 text-sm font-bold text-primary-foreground"
                   >
-                    Consult Dr. Neeta Patil
+                    {t("Consult Dr. Neeta Patil")}
                   </a>
                 </div>
               </div>
@@ -292,17 +295,16 @@ function TreatmentsPage() {
       <section className="border-t border-border py-20 text-center">
         <div className="page-shell">
           <h2 className="display-serif text-4xl text-ice sm:text-5xl">
-            Not sure which service you need?
+            {t("Not sure which service you need?")}
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-muted-foreground">
-            Begin with a comprehensive eye evaluation. We’ll guide you from
-            there.
+            {t("Begin with a comprehensive eye evaluation. We’ll guide you from there.")}
           </p>
           <Link
             to="/contact"
             className="mt-7 inline-flex rounded-full border border-border px-6 py-3 text-sm font-bold text-ice"
           >
-            Book an evaluation
+            {t("Book an evaluation")}
           </Link>
         </div>
       </section>

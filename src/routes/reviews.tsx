@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { BadgeCheck, MessageCircle, Star } from "lucide-react";
+import { useLang } from "@/lib/i18n";
 
 const reviews = [
   ["Meera Patil", "Islampur", "The cataract procedure was comfortable and every step was explained clearly. My vision felt brighter the very next morning."],
@@ -23,30 +24,31 @@ export const Route = createFileRoute("/reviews")({
 });
 
 function ReviewsPage() {
+  const { t } = useLang();
   return (
     <>
       <section className="border-b border-border bg-panel pt-36">
         <div className="page-shell pb-20 pt-12 text-center">
           <div className="mx-auto inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-xs font-bold text-secondary">
-            <Star className="size-3 fill-gold text-gold" /> 4.9 rated in Islampur
+            <Star className="size-3 fill-gold text-gold" /> {t("4.9 rated in Islampur")}
           </div>
-          <h1 className="display-serif mx-auto mt-6 max-w-4xl text-6xl text-ice sm:text-8xl">Care remembered for the right reasons.</h1>
-          <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-muted-foreground">Real experiences from patients and families who trusted Dr. Neeta Ramesh Patil with their vision.</p>
+          <h1 className="display-serif mx-auto mt-6 max-w-4xl text-6xl text-ice sm:text-8xl">{t("Care remembered for the right reasons.")}</h1>
+          <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-muted-foreground">{t("Real experiences from patients and families who trusted Dr. Neeta Ramesh Patil with their vision.")}</p>
         </div>
       </section>
       <section className="py-24">
         <div className="page-shell grid gap-5 md:grid-cols-2">
           {reviews.map(([name, locality, quote]) => (
             <article key={name} className="rounded-lg border border-border bg-card p-8">
-              <div className="flex items-center justify-between gap-4"><div className="flex gap-1 text-gold" aria-label="5 stars">★★★★★</div><BadgeCheck className="size-5 text-secondary" /></div>
+              <div className="flex items-center justify-between gap-4"><div className="flex gap-1 text-gold" aria-label={t("5 stars")}>★★★★★</div><BadgeCheck className="size-5 text-secondary" /></div>
               <MessageCircle className="mt-10 size-7 text-secondary" />
-              <blockquote className="mt-5 font-serif text-3xl leading-snug text-ice">“{quote}”</blockquote>
-              <p className="mt-8 text-sm font-bold text-ice">{name} <span className="font-normal text-muted-foreground">— {locality}</span></p>
+              <blockquote className="mt-5 font-serif text-3xl leading-snug text-ice">“{t(quote ?? "")}”</blockquote>
+              <p className="mt-8 text-sm font-bold text-ice">{t(name ?? "")} <span className="font-normal text-muted-foreground">— {t(locality ?? "")}</span></p>
             </article>
           ))}
         </div>
       </section>
-      <section className="border-y border-border bg-panel py-20 text-center"><div className="page-shell"><h2 className="display-serif text-5xl text-ice">Begin your own clearer-vision story.</h2><Link to="/contact" className="mt-7 inline-flex rounded-full bg-primary px-7 py-3.5 text-sm font-bold text-primary-foreground">Book an appointment</Link></div></section>
+      <section className="border-y border-border bg-panel py-20 text-center"><div className="page-shell"><h2 className="display-serif text-5xl text-ice">{t("Begin your own clearer-vision story.")}</h2><Link to="/contact" className="mt-7 inline-flex rounded-full bg-primary px-7 py-3.5 text-sm font-bold text-primary-foreground">{t("Book an appointment")}</Link></div></section>
     </>
   );
 }
