@@ -74,8 +74,10 @@ export const mr: Record<string, string> = {
   "Transparent guidance at every stage": "प्रत्येक टप्प्यावर पारदर्शक मार्गदर्शन",
   "Our approach": "आमची कार्यपद्धती",
   "Dr. Neeta Ramesh Patil": "डॉ. नीता रमेश पाटील",
-  "MBBS, MS Ophthalmology": "एमबीबीएस, एमएस नेत्रचिकित्सा",
-  "MBBS · MS Ophthalmology": "एमबीबीएस · एमएस नेत्रचिकित्सा",
+  "M.S. (Ayu) · Netra Specialist · PhD Scholar": "एम.एस. (आयु) · नेत्र तज्ज्ञ · पीएचडी संशोधक",
+  "M.S. (Ayu) – Master of Surgery in Ayurveda, specializing in Netra (Ophthalmology/Eye Care) from Tarachand Hospital Pune (2010)":
+    "एम.एस. (आयु) – आयुर्वेद शल्यचिकित्सेत स्नातकोत्तर पदवी, ताराचंद हॉस्पिटल, पुणे (२०१०) येथून नेत्र (नेत्रचिकित्सा) विशेषज्ञता",
+  "PhD Scholar": "पीएचडी संशोधक",
   "Patient stories": "रुग्णांचे अनुभव",
   "What our patients say.": "आमचे रुग्ण काय म्हणतात.",
   "Previous review": "मागील अभिप्राय",
