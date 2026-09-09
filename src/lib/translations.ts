@@ -13,7 +13,7 @@ export const mr: Record<string, string> = {
   "Book an appointment": "अपॉइंटमेंट बुक करा",
   "Explore treatments": "उपचार पहा",
   "Transform your vision with Dr. Neeta Ramesh Patil.":
-    "डॉ. निता रमेश पाटील यांच्यासोबत तुमची दृष्टी सुधारा.",
+    "डॉ. नीता रमेश पाटील यांच्यासोबत तुमची दृष्टी सुधारा.",
   "Advanced ophthalmology delivered with precision, empathy and transparent guidance.":
     "अचूकता, आपुलकी आणि पारदर्शक मार्गदर्शनासह प्रगत नेत्रचिकित्सा.",
   Visit: "पत्ता",
@@ -27,20 +27,20 @@ export const mr: Record<string, string> = {
 
   // Home
   "4.9 rated ophthalmology center in Islampur": "इस्लामपूरमधील ४.९ रेटिंग असलेले नेत्ररुग्णालय",
-  "Clear, healthy vision": "स्वच्छ, निरोगी दृष्टी",
+  "Clear, healthy vision": "स्पष्ट, निरोगी दृष्टी",
   "starts here.": "इथूनच सुरू होते.",
   "Advanced stitchless cataract surgery and comprehensive eye diagnostics tailored for precision by Dr. Neeta Ramesh Patil.":
-    "डॉ. निता रमेश पाटील यांच्याकडून बिना टाक्यांचे प्रगत मोतीबिंदू ऑपरेशन आणि सर्वंकष नेत्रतपासणी.",
+    "डॉ. नीता रमेश पाटील यांच्याकडून बिना टाक्यांचे प्रगत मोतीबिंदू ऑपरेशन आणि सर्वंकष नेत्रतपासणी.",
   "Ophthalmologist performing a precise slit-lamp eye examination":
     "नेत्रतज्ज्ञ अचूक स्लिट-लॅम्प तपासणी करताना",
   "Dr. Neeta Ramesh Patil · Eye Surgeon & Specialist":
-    "डॉ. निता रमेश पाटील · नेत्रशल्यचिकित्सक व तज्ज्ञ",
+    "डॉ. नीता रमेश पाटील · नेत्रशल्यचिकित्सक व तज्ज्ञ",
   "“Precise care, a painless experience, and exceptional clarity.”":
     "“अचूक उपचार, वेदनारहित अनुभव आणि उत्तम स्पष्टता.”",
-  "Verified patient review": "पडताळलेला रुग्ण अभिप्राय",
+  "Verified patient review": "पडताळलेला रुग्ण-अभिप्राय",
   "Expert eye care for every age": "प्रत्येक वयासाठी तज्ज्ञ नेत्रसेवा",
-  "We unite advanced surgical ophthalmology with deeply": "आम्ही प्रगत नेत्रशस्त्रक्रिया जोडतो अत्यंत",
-  "compassionate care.": "आपुलकीच्या सेवेशी.",
+  "We unite advanced surgical ophthalmology with deeply": "प्रगत नेत्रशस्त्रक्रिया आणि अत्यंत",
+  "compassionate care.": "आपुलकीची सेवा एकत्र.",
   "Modern ophthalmology consultation suite": "आधुनिक नेत्रतपासणी कक्ष",
   "34+ Google reviews": "३४+ गुगल अभिप्राय",
   "One hospital.": "एकच रुग्णालय.",
@@ -73,7 +73,7 @@ export const mr: Record<string, string> = {
   "Certified surgical technology": "प्रमाणित शस्त्रक्रिया तंत्रज्ञान",
   "Transparent guidance at every stage": "प्रत्येक टप्प्यावर पारदर्शक मार्गदर्शन",
   "Our approach": "आमची कार्यपद्धती",
-  "Dr. Neeta Ramesh Patil": "डॉ. निता रमेश पाटील",
+  "Dr. Neeta Ramesh Patil": "डॉ. नीता रमेश पाटील",
   "MBBS, MS Ophthalmology": "एमबीबीएस, एमएस नेत्रचिकित्सा",
   "MBBS · MS Ophthalmology": "एमबीबीएस · एमएस नेत्रचिकित्सा",
   "Patient stories": "रुग्णांचे अनुभव",
@@ -100,7 +100,7 @@ export const mr: Record<string, string> = {
   // Home treatment rows
   "Painless cataract surgery": "वेदनारहित मोतीबिंदू ऑपरेशन",
   "Stitchless, injection-free, bandage-free Phaco and MICS techniques designed for clarity and rapid recovery.":
-    "बिना टाके, बिना इंजेक्शन, बिना पट्टीचे फॅको व MICS तंत्र—स्पष्ट दृष्टी व जलद आराम.",
+    "बिना टाक्यांचे, बिना इंजेक्शन, बिना पट्टीचे फॅको व MICS तंत्र—स्पष्ट दृष्टी व लवकर बरे होणे.",
   "Eye wart (मोस) removal": "डोळ्यांवरील मोस काढणे",
   "Safe, precise removal of eye warts and lid growths performed without injections or stitches.":
     "इंजेक्शन व टाक्यांशिवाय डोळ्यावरील मोस व पापणीवरील वाढ सुरक्षितपणे काढणे.",
@@ -115,7 +115,7 @@ export const mr: Record<string, string> = {
     "डोळ्यातील दुखापत, परकी वस्तू व अपघाती आघातावर तातडीने तपासणी व उपचार.",
   "Ayurvedic eye therapies": "आयुर्वेदिक नेत्रचिकित्सा",
   "Tarpana, Shirodhara and allied therapies for Diabetic Retinopathy and digital eye strain.":
-    "मधुमेह रेटिनोपॅथी व डिजिटल ताणासाठी तर्पण, शिरोधारा व इतर चिकित्सा.",
+    "मधुमेह रेटिनोपॅथी व डोळ्यांवरील डिजिटल ताणासाठी तर्पण, शिरोधारा व इतर चिकित्सा.",
   "Retina & diabetic eye care": "पडदा व मधुमेह नेत्रसेवा",
   "Detailed retinal imaging, laser diagnostics and ongoing monitoring that protects long-term vision.":
     "सविस्तर पडदा तपासणी, लेसर निदान व दीर्घकालीन दृष्टीसाठी सतत देखरेख.",
@@ -131,18 +131,18 @@ export const mr: Record<string, string> = {
 
   // About
   "About Haripriyaa Netralaya": "हरिप्रिया नेत्रालयाविषयी",
-  "Excellence in eye care for Uran Islampur.": "उरण इस्लामपूरसाठी उत्कृष्ट नेत्रसेवा.",
+  "Excellence in eye care for Uran Islampur.": "उरुण-इस्लामपूरसाठी उत्कृष्ट नेत्रसेवा.",
   "A modern ophthalmology practice where surgical precision meets calm, personal attention.":
     "जिथे शस्त्रक्रियेतील अचूकता आणि शांत, वैयक्तिक लक्ष एकत्र येते असे आधुनिक नेत्ररुग्णालय.",
-  "Dr. Neeta Ramesh Patil, eye surgeon and specialist": "डॉ. निता रमेश पाटील, नेत्रशल्यचिकित्सक व तज्ज्ञ",
-  "Your ophthalmologist": "तुमच्या नेत्रतज्ज्ञ",
+  "Dr. Neeta Ramesh Patil, eye surgeon and specialist": "डॉ. नीता रमेश पाटील, नेत्रशल्यचिकित्सक व तज्ज्ञ",
+  "Your ophthalmologist": "तुमच्या नेत्रतज्ज्ञ डॉक्टर",
   "With over nine years dedicated to medical and surgical ophthalmology, Dr. Neeta Ramesh Patil brings precise, compassionate eye care to patients across Islampur and Walwa taluka. Her philosophy is simple: explain clearly, recommend honestly, and treat gently.":
-    "नऊ वर्षांहून अधिक वैद्यकीय व शस्त्रक्रिया अनुभवासह डॉ. निता रमेश पाटील इस्लामपूर व वाळवा तालुक्यातील रुग्णांना अचूक व आपुलकीची नेत्रसेवा देतात. त्यांचे तत्त्व सोपे आहे: स्पष्ट समजावणे, प्रामाणिक सल्ला देणे आणि सौम्य उपचार करणे.",
+    "नऊ वर्षांहून अधिक वैद्यकीय व शस्त्रक्रिया अनुभवासह डॉ. नीता रमेश पाटील इस्लामपूर व वाळवा तालुक्यातील रुग्णांना अचूक व आपुलकीची नेत्रसेवा देतात. त्यांचे तत्त्व सोपे आहे: स्पष्ट समजावणे, प्रामाणिक सल्ला देणे आणि सौम्य उपचार करणे.",
   "Phaco & MICS cataract surgery": "फॅको व MICS मोतीबिंदू शस्त्रक्रिया",
   "Retinal diagnostics": "पडदा तपासणी",
   "Glaucoma screening": "काचबिंदू तपासणी",
   "Customized lens planning": "वैयक्तिक लेन्स नियोजन",
-  "Consult Dr. Neeta Patil": "डॉ. निता पाटील यांचा सल्ला घ्या",
+  "Consult Dr. Neeta Patil": "डॉ. नीता पाटील यांचा सल्ला घ्या",
   "Inside the clinic": "रुग्णालयाच्या आत",
   "Designed around safety and ease.": "सुरक्षितता व सोयीसाठी रचलेले.",
   "Operation theatre": "ऑपरेशन थिएटर",
@@ -157,7 +157,7 @@ export const mr: Record<string, string> = {
     "आमच्या रुग्णालयातील प्रत्येक उपकरण निवडले जाते कारण ते अधिक अचूक निदान, सौम्य प्रक्रिया व ठाम निर्णय शक्य करते.",
   "Advanced Phaco System": "प्रगत फॅको प्रणाली",
   "Micro-incision cataract removal with stable surgical control and a faster, more comfortable recovery.":
-    "सूक्ष्म छेदाद्वारे मोतीबिंदू काढणे—स्थिर नियंत्रण आणि जलद, आरामदायक आराम.",
+    "सूक्ष्म छेदाद्वारे मोतीबिंदू काढणे—शस्त्रक्रियेवर स्थिर नियंत्रण आणि जलद, आरामदायक रिकव्हरी.",
   "Non-contact Tonometer": "नॉन-कॉन्टॅक्ट टोनोमीटर",
   "Accurate eye-pressure screening with a gentle air pulse—no instrument touches the eye.":
     "हलक्या हवेच्या झोतातून डोळ्याचा दाब अचूक तपासला जातो—कोणतेही उपकरण डोळ्याला स्पर्श करत नाही.",
@@ -179,7 +179,7 @@ export const mr: Record<string, string> = {
   "4.9 rated in Islampur": "इस्लामपूरमध्ये ४.९ रेटिंग",
   "Care remembered for the right reasons.": "योग्य कारणांसाठी लक्षात राहणारी सेवा.",
   "Real experiences from patients and families who trusted Dr. Neeta Ramesh Patil with their vision.":
-    "डॉ. निता रमेश पाटील यांच्यावर विश्वास ठेवलेल्या रुग्णांचे व कुटुंबांचे खरे अनुभव.",
+    "डॉ. नीता रमेश पाटील यांच्यावर विश्वास ठेवलेल्या रुग्णांचे व कुटुंबांचे खरे अनुभव.",
   "Begin your own clearer-vision story.": "तुमचीही स्पष्ट दृष्टीची कहाणी सुरू करा.",
   "5 stars": "५ तारे",
   "The cataract procedure was comfortable and the team explained every step. My vision was brighter the very next morning.":
@@ -187,9 +187,9 @@ export const mr: Record<string, string> = {
   "The cataract procedure was comfortable and every step was explained clearly. My vision felt brighter the very next morning.":
     "मोतीबिंदू ऑपरेशन आरामदायक होते व प्रत्येक टप्पा स्पष्ट समजावला गेला. दुसऱ्या दिवशी सकाळीच दृष्टी अधिक स्पष्ट वाटली.",
   "From the first scan to follow-up, everything felt organised. Dr. Neeta Ramesh Patil’s calm guidance gave our family complete confidence.":
-    "पहिल्या तपासणीपासून फॉलो-अपपर्यंत सर्व सुव्यवस्थित होते. डॉ. निता रमेश पाटील यांच्या शांत मार्गदर्शनाने आमच्या कुटुंबाला पूर्ण विश्वास दिला.",
+    "पहिल्या तपासणीपासून फॉलो-अपपर्यंत सर्व सुव्यवस्थित होते. डॉ. नीता रमेश पाटील यांच्या शांत मार्गदर्शनाने आमच्या कुटुंबाला पूर्ण विश्वास दिला.",
   "The staff were warm, waiting time was minimal, and my new lenses are exceptionally clear. Truly attentive care.":
-    "कर्मचारी आपुलकीचे होते, प्रतीक्षा कमी होती आणि माझ्या नव्या लेन्स अतिशय स्पष्ट आहेत. खरोखर लक्षपूर्वक सेवा.",
+    "कर्मचारी आपुलकीने वागले, प्रतीक्षा कमी होती आणि माझ्या नव्या लेन्स अतिशय स्पष्ट आहेत. खरोखर लक्षपूर्वक सेवा.",
   "A clean clinic, thoughtful consultation and a treatment plan that was easy for our family to understand.":
     "स्वच्छ रुग्णालय, विचारपूर्वक तपासणी आणि आमच्या कुटुंबाला सहज समजेल असा उपचार आराखडा.",
   Islampur: "इस्लामपूर",
@@ -200,7 +200,7 @@ export const mr: Record<string, string> = {
   "Contact & appointments": "संपर्क व अपॉइंटमेंट",
   "Your clearer tomorrow starts with a conversation.": "तुमचा स्पष्ट उद्या एका संवादाने सुरू होतो.",
   "Choose a preferred time with Dr. Neeta Ramesh Patil and our care coordinator will confirm your appointment.":
-    "डॉ. निता रमेश पाटील यांच्यासाठी तुमची सोयीची वेळ निवडा; आमचे समन्वयक तुमची अपॉइंटमेंट निश्चित करतील.",
+    "डॉ. नीता रमेश पाटील यांच्यासाठी तुमची सोयीची वेळ निवडा; आमचे समन्वयक तुमची अपॉइंटमेंट निश्चित करतील.",
   "Request an appointment": "अपॉइंटमेंटसाठी विनंती करा",
   "Patient name": "रुग्णाचे नाव",
   "Phone number": "मोबाईल नंबर",
@@ -217,7 +217,7 @@ export const mr: Record<string, string> = {
     "तुमची अपॉइंटमेंट माहिती व्हॉट्सअ‍ॅपवर पाठवण्यास तयार आहे.",
   "Get directions": "मार्ग दाखवा",
   "Haripriyaa Netralaya clinic": "हरिप्रिया नेत्रालय",
-  "Dr. Neeta Patil’s OPD schedule": "डॉ. निता पाटील यांची ओपीडी वेळ",
+  "Dr. Neeta Patil’s OPD schedule": "डॉ. नीता पाटील यांचे ओपीडी वेळापत्रक",
   "Monday–Saturday": "सोमवार – शनिवार",
   "Evening session": "सायंकाळचे सत्र",
   Sunday: "रविवार",
@@ -231,7 +231,7 @@ export const mr: Record<string, string> = {
   "Treatments & services": "उपचार व सेवा",
   "Precision care for every stage of vision.": "दृष्टीच्या प्रत्येक टप्प्यासाठी अचूक सेवा.",
   "Understand your symptoms, your options and your path to recovery with Dr. Neeta Ramesh Patil—without medical jargon.":
-    "डॉ. निता रमेश पाटील यांच्यासोबत तुमची लक्षणे, पर्याय व बरे होण्याचा मार्ग सोप्या भाषेत समजून घ्या.",
+    "डॉ. नीता रमेश पाटील यांच्यासोबत तुमची लक्षणे, पर्याय व बरे होण्याचा मार्ग सोप्या भाषेत समजून घ्या.",
   "When to get checked": "कधी तपासणी करावी",
   "Your care pathway": "तुमच्या काळजीचा मार्ग",
   "Not sure which service you need?": "कोणती सेवा हवी हे ठरत नाही का?",

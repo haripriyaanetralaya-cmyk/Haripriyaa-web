@@ -37,7 +37,7 @@ const services = [
     symptoms: [
       { en: "Blurred or fluctuating vision", mr: "धूसर किंवा अस्थिर दृष्टी" },
       { en: "Frequent headaches while reading", mr: "वाचताना वारंवार डोकेदुखी" },
-      { en: "Eye strain after screen use", mr: "स्क्रीन वापरानंतर डोळ्यांचा तणाव" },
+      { en: "Eye strain after screen use", mr: "स्क्रीन वापरानंतर डोळ्यांवर ताण" },
     ],
     steps: [
       { en: "Digital auto-refraction test", mr: "डिजिटल auto-refraction चाचणी" },
@@ -54,37 +54,37 @@ const services = [
     titleEn: "Eye wart removal & Cataract surgery",
     titleMr: "डोळ्यांवरील मोस काढणे व मोतीबिंदू ऑपरेशन",
     symptoms: [
-      { en: "Cloudy or hazy vision", mr: "धूसर किंवा धुसकट दृष्टी" },
-      { en: "Growth or lump on the eyelid", mr: "पापणीवर वाढ किंवा गांठ" },
-      { en: "Glare and difficulty driving at night", mr: "प्रकाशाचा त्रास व रात्री गाडी चालवणे कठीण" },
+      { en: "Cloudy or hazy vision", mr: "धूसर किंवा अंधुक दृष्टी" },
+      { en: "Growth or lump on the eyelid", mr: "पापणीवर वाढ किंवा गाठ" },
+      { en: "Glare and difficulty driving at night", mr: "प्रकाशाचा त्रास व रात्री गाडी चालवण्यात अडचण" },
     ],
     steps: [
-      { en: "Detailed lens and lid examination", mr: "सविस्तर लेंस व पापणी तपासणी" },
-      { en: "Stitchless Phaco procedure", mr: "बिना टाक्यांचे Phaco प्रक्रिया" },
-      { en: "Guided post-op review", mr: "मार्गदर्शित ऑपरेशननंतर तपासणी" },
+      { en: "Detailed lens and lid examination", mr: "सविस्तर लेन्स व पापणी तपासणी" },
+      { en: "Stitchless Phaco procedure", mr: "बिना टाक्यांची Phaco प्रक्रिया" },
+      { en: "Guided post-op review", mr: "ऑपरेशननंतर मार्गदर्शित तपासणी" },
     ],
     recovery: {
       en: "Both surgeries are done without injection, bandage or stitches; most patients resume light routines in 2–3 days.",
       mr: "दोन्ही ऑपरेशन्स बिना इंजेक्शन, बिना पट्टी, बिना टाक्या; बहुतेक रुग्ण २-३ दिवसांत सामान्य कामे करू लागतात.",
     },
-    tech: { en: "Stitchless Phaco / topical anesthesia", mr: "बिना टाक्यांचे Phaco / स्थानिक निश्चेतन" },
+    tech: { en: "Stitchless Phaco / topical anesthesia", mr: "बिना टाक्यांचे Phaco / स्थानिक भूल" },
   },
   {
     titleEn: "Stitchless laser surgery",
     titleMr: "लेसर ऑपरेशन — बिना टाक्यांचे",
     symptoms: [
       { en: "Faded colours or reduced contrast", mr: "फिकट रंग किंवा कमी कंट्रास्ट" },
-      { en: "Blur that spectacles cannot fully correct", mr: "चष्म्याने पूर्णपणे दुर होत नसलेली धूसरता" },
+      { en: "Blur that spectacles cannot fully correct", mr: "चष्म्याने पूर्णपणे दूर होत नसलेली धूसरता" },
       { en: "Difficulty with bright lights", mr: "तेजस्वी प्रकाशात त्रास" },
     ],
     steps: [
-      { en: "Advanced lens and corneal mapping", mr: "प्रगत लेंस व कॉर्निया मॅपिंग" },
+      { en: "Advanced lens and corneal mapping", mr: "प्रगत लेन्स व कॉर्निया मॅपिंग" },
       { en: "Laser-assisted precise incision", mr: "लेसर-सहाय्यित अचूक छेद" },
       { en: "Premium IOL placement", mr: "प्रीमियम IOL बसवणे" },
     ],
     recovery: {
       en: "Rapid visual recovery with minimal follow-up and no stitches.",
-      mr: "कमी फॉलो-अप, बिना टाक्या आणि द्रुत दृष्टी सुधारणा.",
+      mr: "कमी फॉलो-अप, बिना टाक्या आणि जलद दृष्टी सुधारणा.",
     },
     tech: { en: "Femtosecond laser platform", mr: "फेम्टोसेकंद लेसर प्लॅटफॉर्म" },
   },
@@ -93,12 +93,12 @@ const services = [
     titleMr: "डोळ्यांवरील आघातांवर उपचार",
     symptoms: [
       { en: "Sudden eye pain after an accident", mr: "अपघातानंतर अचानक डोळ्यांचे दुखणे" },
-      { en: "Redness, cuts or foreign-body sensation", mr: "लालness, काप, किंवा परके वस्तूची जाणीव" },
+      { en: "Redness, cuts or foreign-body sensation", mr: "लालसरपणा, जखम किंवा डोळ्यात काहीतरी गेल्याची जाणीव" },
       { en: "Vision drop after injury", mr: "जखमेनंतर दृष्टी कमी होणे" },
     ],
     steps: [
-      { en: "Emergency slit-lamp examination", mr: "आपातकालीन slit-lamp तपासणी" },
-      { en: "Imaging and damage assessment", mr: "इमेजिंग व नुकसान मूल्यांकन" },
+      { en: "Emergency slit-lamp examination", mr: "तातडीची slit-lamp तपासणी" },
+      { en: "Imaging and damage assessment", mr: "इमेजिंग व इजेचे मूल्यांकन" },
       { en: "Medical or microsurgical repair", mr: "वैद्यकीय किंवा सूक्ष्मशस्त्रक्रिया दुरुस्ती" },
     ],
     recovery: {
@@ -112,11 +112,11 @@ const services = [
     titleMr: "Diabetic Retinopathy व Digital Eye Strain साठी खास आयुर्वेदिक तर्पण, शिरोधारा आणि इतर चिकित्सा",
     symptoms: [
       { en: "Burning or dry eyes after screen use", mr: "स्क्रीन वापरानंतर डोळ्यांमध्ये जळजळ किंवा कोरडेपणा" },
-      { en: "Diabetes-related vision changes", mr: "मधुमेहामुळे होणारे दृष्टी बदल" },
+      { en: "Diabetes-related vision changes", mr: "मधुमेहामुळे दृष्टीत होणारे बदल" },
       { en: "Heaviness and fatigue around the eyes", mr: "डोळ्यांच्या भोवती जडपणा व थकवा" },
     ],
     steps: [
-      { en: "Ayurvedic eye and systemic assessment", mr: "आयुर्वेदिक डोळा व संपूर्ण मूल्यांकन" },
+      { en: "Ayurvedic eye and systemic assessment", mr: "आयुर्वेदिक नेत्र व सर्वांगीण तपासणी" },
       { en: "Tarpana / Shirodhara therapy sessions", mr: "तर्पण / शिरोधारा चिकित्सा सत्रे" },
       { en: "Diet and screen-habit guidance", mr: "आहार व स्क्रीन सवयींचे मार्गदर्शन" },
     ],
@@ -128,22 +128,22 @@ const services = [
   },
   {
     titleEn: "Discharge within half an hour after operation",
-    titleMr: "ऑपरेशन नंतर अर्ध्या तासात Discharge",
+    titleMr: "ऑपरेशननंतर अर्ध्या तासात Discharge",
     symptoms: [
-      { en: "Concerns about long hospital stays", mr: "दीर्घ रुग्णालय वास्तव्याबद्दल चिंता" },
-      { en: "Need to return home the same day", mr: "त्या दिवशी घरी परतण्याची इच्छा" },
-      { en: "Limited time away from work or family", mr: "काम किंवा कुटुंबापासून कमी वेळ घालवणे" },
+      { en: "Concerns about long hospital stays", mr: "रुग्णालयात जास्त काळ राहावे लागण्याची चिंता" },
+      { en: "Need to return home the same day", mr: "त्याच दिवशी घरी परतण्याची इच्छा" },
+      { en: "Limited time away from work or family", mr: "कामातून व कुटुंबापासून कमी वेळ दूर राहणे" },
     ],
     steps: [
       { en: "Pre-operative counselling", mr: "ऑपरेशनपूर्व सल्ला" },
-      { en: "Swift, efficient day-care procedure", mr: "जलद, कुशल दिवस-काळजी प्रक्रिया" },
+      { en: "Swift, efficient day-care procedure", mr: "जलद व कुशल डे-केअर प्रक्रिया" },
       { en: "Post-op observation and discharge", mr: "ऑपरेशननंतर निरीक्षण व डिस्चार्ज" },
     ],
     recovery: {
       en: "Most patients are discharged within 30 minutes of the procedure.",
       mr: "बहुतेक रुग्ण प्रक्रियेनंतर अर्ध्या तासात डिस्चार्ज होतात.",
     },
-    tech: { en: "Day-care surgical protocol", mr: "दिवस-काळजी शस्त्रक्रिया प्रोटोकॉल" },
+    tech: { en: "Day-care surgical protocol", mr: "डे-केअर शस्त्रक्रिया प्रोटोकॉल" },
   },
   {
     titleEn: "Transport facility for outstation patients",
@@ -151,35 +151,35 @@ const services = [
     symptoms: [
       { en: "Difficulty travelling from distant towns", mr: "दूरच्या गावांतून प्रवास करणे कठीण" },
       { en: "No reliable local transport", mr: "विश्वसनीय स्थानिक वाहतूक नसणे" },
-      { en: "Elderly patients travelling alone", mr: "वृद्ध रुग्ण एकटे प्रवास करणे" },
+      { en: "Elderly patients travelling alone", mr: "वृद्ध रुग्णांचा एकट्याने प्रवास" },
     ],
     steps: [
       { en: "Book appointment and request transport", mr: "अपॉइंटमेंट बुक करा व वाहन मागवा" },
-      { en: "Coordinated pickup from your location", mr: "तुमच्या ठिकाणाहून समन्वित पिकअप" },
+      { en: "Coordinated pickup from your location", mr: "तुमच्या गावातून नियोजित वाहनाची सोय" },
       { en: "Comfortable return after consultation", mr: "तपासणीनंतर आरामदायक परतीची सोय" },
     ],
     recovery: {
       en: "Travel assistance is arranged so you can focus only on your eye care.",
-      mr: "प्रवास सोय व्यवस्थित असते म्हणून तुम्ही फक्त डोळ्याच्या काळजीवर लक्ष देऊ शकता.",
+      mr: "प्रवासाची सोय आम्ही करतो, त्यामुळे तुम्ही फक्त डोळ्याच्या काळजीवर लक्ष देऊ शकता.",
     },
-    tech: { en: "Clinic-coordinated patient transport", mr: "रुग्णालय-समन्वित रुग्ण वाहतूक" },
+    tech: { en: "Clinic-coordinated patient transport", mr: "रुग्णालयामार्फत नियोजित रुग्ण वाहतूक" },
   },
   {
     titleEn: "Affordable & attractive spectacles",
     titleMr: "परवडणारे व आकर्षक चष्मे",
     symptoms: [
-      { en: "Outdated or broken frames", mr: "जुने किंवा मोडलेले फ्रेम" },
-      { en: "Budget constraints for quality glasses", mr: "गुणवत्ता चष्म्यांसाठी बजेट मर्यादा" },
-      { en: "Want stylish frames with accurate lenses", mr: "अचूक लेंससह फॅशनेबल फ्रेम हवे आहेत" },
+      { en: "Outdated or broken frames", mr: "जुनी किंवा तुटलेली फ्रेम" },
+      { en: "Budget constraints for quality glasses", mr: "दर्जेदार चष्म्यांसाठी बजेटची मर्यादा" },
+      { en: "Want stylish frames with accurate lenses", mr: "अचूक लेन्ससह फॅशनेबल फ्रेम हवी आहे" },
     ],
     steps: [
-      { en: "Frame selection to match your style", mr: "तुमच्या शैलीला साजेसे फ्रेम निवड" },
-      { en: "Digital lens fitting and edging", mr: "डिजिटल लेंस फिटिंग व एजिंग" },
-      { en: "Quality check and same-day handover", mr: "गुणवत्ता तपासणी व त्या दिवशी हस्तांतरण" },
+      { en: "Frame selection to match your style", mr: "तुमच्या शैलीला साजेशी फ्रेम निवड" },
+      { en: "Digital lens fitting and edging", mr: "डिजिटल लेन्स फिटिंग व एजिंग" },
+      { en: "Quality check and same-day handover", mr: "गुणवत्ता तपासणी व त्याच दिवशी हस्तांतरण" },
     ],
     recovery: {
       en: "Most wearers adapt to their new lenses within a few days.",
-      mr: "बहुतेक वापरकर्ते काही दिवसांत नवीन लेंसशी सरावतात.",
+      mr: "बहुतेक जणांना काही दिवसांतच नवीन लेन्सची सवय होते.",
     },
     tech: { en: "In-house optical finishing lab", mr: "इन-हाउस ऑप्टिकल फिनिशिंग लॅब" },
   },
