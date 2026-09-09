@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
 const treatments = [
   { n: "01", title: "Painless cataract surgery", mr: "बिना इंजेक्शन, बिना टाक्यांचे मोतीबिंदू ऑपरेशन", text: "Stitchless, injection-free, bandage-free Phaco and MICS techniques designed for clarity and rapid recovery.", image: heroImage },
   { n: "02", title: "Eye wart (मोस) removal", mr: "डोळ्यांवरील मोस काढणे", text: "Safe, precise removal of eye warts and lid growths performed without injections or stitches.", image: clinicImage },
-  { n: "03", title: "Stitchless laser surgery", mr: "लेसर ऑपरेशन — बिना टाक्यांचे", text: "Laser procedures completed without sutures, keeping the eye comfortable and healing time short.", image: technologyImage },
+  { n: "03", title: "Stitchless laser surgery", mr: "बिना टाक्यांचे लेसर ऑपरेशन", text: "Laser procedures completed without sutures, keeping the eye comfortable and healing time short.", image: technologyImage },
   { n: "04", title: "Computerized spectacle power", mr: "Computer ने अचूक चष्म्याचा नंबर", text: "Computer-assisted refraction for an accurate spectacle number, measured to fine precision.", image: clinicImage },
   { n: "05", title: "Eye injury & trauma care", mr: "डोळ्यांवरील आघातांवर उपचार", text: "Prompt assessment and treatment for eye injuries, foreign bodies and accidental trauma.", image: heroImage },
   { n: "06", title: "Ayurvedic eye therapies", mr: "तर्पण, शिरोधारा व इतर आयुर्वेदिक चिकित्सा", text: "Tarpana, Shirodhara and allied therapies for Diabetic Retinopathy and digital eye strain.", image: technologyImage },
@@ -33,7 +33,7 @@ const treatments = [
 ];
 
 const facilities = [
-  { title: "Discharge within half an hour after surgery", mr: "ऑपरेशन नंतर अर्ध्या तासात डिस्चार्ज" },
+  { title: "Discharge within half an hour after surgery", mr: "ऑपरेशननंतर अर्ध्या तासात डिस्चार्ज" },
   { title: "Vehicle facility for outstation patients", mr: "परगावच्या रुग्णांसाठी वाहनाची सोय" },
   { title: "Injection-free, bandage-free, stitchless surgery", mr: "बिना इंजेक्शन, बिना पट्टी, बिना टाक्यांचे ऑपरेशन" },
 ];
