@@ -10,7 +10,7 @@ export const Route = createFileRoute("/technology")({ head: () => ({ meta: [
   { property: "og:title", content: "Our Technology — Haripriyaa Netralaya" }, { property: "og:description", content: "Modern eye diagnostics and surgical precision, explained through patient benefits." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" },
 ] }), component: TechnologyPage });
 
-const machines = [
+const machines: [string, string, string][] = [
   ["Advanced Phaco System","Micro-incision cataract removal with stable surgical control and a faster, more comfortable recovery.",technologyImage],
   ["Non-contact Tonometer","Accurate eye-pressure screening with a gentle air pulse—no instrument touches the eye.",clinicImage],
   ["Automated Visual Field Analyzer","Maps peripheral vision precisely to detect and monitor subtle glaucoma changes.",technologyImage],
