@@ -81,6 +81,34 @@
   line-height: 0.92;
 }
 
+/* Marathi script needs a little more room and slightly smaller display type */
+html[lang="mr"] h1.display-serif,
+html[lang="mr"] h2.display-serif,
+html[lang="mr"] h3.display-serif {
+  line-height: 1.05;
+  transform: scale(0.9);
+  transform-origin: top left;
+  display: block;
+}
+
+html[lang="mr"] .text-center h1.display-serif,
+html[lang="mr"] .text-center h2.display-serif,
+html[lang="mr"] .text-center h3.display-serif {
+  transform-origin: top center;
+}
+
+html[lang="mr"] h2.font-serif,
+html[lang="mr"] h3.font-serif {
+  transform: scale(0.94);
+  transform-origin: top left;
+  display: block;
+}
+
+html[lang="mr"] .text-center h2.font-serif,
+html[lang="mr"] .text-center h3.font-serif {
+  transform-origin: top center;
+}
+
 @utility glass-panel {
   background: color-mix(in oklab, var(--panel-raised) 84%, transparent);
   border: 1px solid var(--border);
