@@ -34,24 +34,24 @@
 
 :root {
   --radius: 0.5rem;
-  --background: oklch(0.978 0.012 240);
-  --foreground: oklch(0.36 0.11 250);
-  --card: oklch(0.925 0.032 242);
-  --card-foreground: oklch(0.36 0.11 250);
-  --primary: oklch(0.36 0.11 250);
-  --primary-foreground: oklch(0.99 0.004 240);
-  --secondary: oklch(0.61 0.1 241);
-  --secondary-foreground: oklch(0.99 0.004 240);
-  --muted: oklch(0.95 0.021 241);
-  --muted-foreground: oklch(0.48 0.055 244);
-  --accent: oklch(0.53 0.13 246);
-  --accent-foreground: oklch(0.99 0.004 240);
-  --border: oklch(0.61 0.1 241 / 0.44);
-  --input: oklch(0.985 0.008 240);
-  --ring: oklch(0.53 0.13 246);
-  --panel: oklch(0.945 0.026 242);
-  --panel-raised: oklch(0.99 0.006 240 / 0.9);
-  --ice: oklch(0.36 0.11 250);
+  --background: #f0f7f4;
+  --foreground: #1a332b;
+  --card: #bce3d6;
+  --card-foreground: #1a332b;
+  --primary: #1a332b;
+  --primary-foreground: #f0f7f4;
+  --secondary: #527b6e;
+  --secondary-foreground: #f0f7f4;
+  --muted: color-mix(in oklab, #bce3d6 48%, #f0f7f4);
+  --muted-foreground: #49675d;
+  --accent: #7ca99b;
+  --accent-foreground: #1a332b;
+  --border: color-mix(in oklab, #7ca99b 58%, transparent);
+  --input: color-mix(in oklab, #f0f7f4 88%, white);
+  --ring: #7ca99b;
+  --panel: color-mix(in oklab, #bce3d6 54%, #f0f7f4);
+  --panel-raised: color-mix(in oklab, #f0f7f4 92%, transparent);
+  --ice: #1a332b;
   --gold: oklch(0.79 0.14 78);
 }
 
