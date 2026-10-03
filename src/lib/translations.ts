@@ -74,7 +74,7 @@ export const mr: Record<string, string> = {
   "Transparent guidance at every stage": "प्रत्येक टप्प्यावर पारदर्शक मार्गदर्शन",
   "Our approach": "आमची कार्यपद्धती",
   "Dr. Neeta Ramesh Patil": "डॉ. नीता रमेश पाटील",
-  "M.S. (Ayu) · Netra Specialist · PhD Scholar": "एम.एस. (आयु) · नेत्र तज्ज्ञ · पीएचडी संशोधक",
+  "Eye Specialist · M.S. AYU · PhD Scholar": "नेत्रतज्ज्ञ · एम.एस. आयु · पीएचडी संशोधक",
   "M.S. (Ayu) – Master of Surgery in Ayurveda, specializing in Netra (Ophthalmology/Eye Care) from Tarachand Hospital Pune (2010)":
     "एम.एस. (आयु) – आयुर्वेद शल्यचिकित्सेत स्नातकोत्तर पदवी, ताराचंद हॉस्पिटल, पुणे (२०१०) येथून नेत्र (नेत्रचिकित्सा) विशेषज्ञता",
   "PhD Scholar": "पीएचडी संशोधक",
@@ -100,36 +100,29 @@ export const mr: Record<string, string> = {
   "Chat on WhatsApp": "व्हॉट्सअ‍ॅपवर बोला",
 
   // Home treatment rows
-  "Painless cataract surgery": "वेदनारहित मोतीबिंदू ऑपरेशन",
-  "Stitchless, injection-free, bandage-free Phaco and MICS techniques designed for clarity and rapid recovery.":
-    "बिना टाक्यांचे, बिना इंजेक्शन, बिना पट्टीचे फॅको व MICS तंत्र—स्पष्ट दृष्टी व लवकर बरे होणे.",
-  "Eye wart (मोस) removal": "डोळ्यांवरील मोस काढणे",
-  "Safe, precise removal of eye warts and lid growths performed without injections or stitches.":
-    "इंजेक्शन व टाक्यांशिवाय डोळ्यावरील मोस व पापणीवरील वाढ सुरक्षितपणे काढणे.",
-  "Stitchless laser surgery": "बिना टाक्यांचे लेसर ऑपरेशन",
-  "Laser procedures completed without sutures, keeping the eye comfortable and healing time short.":
-    "टाक्यांशिवाय लेसर प्रक्रिया—डोळा आरामदायक राहतो व लवकर बरा होतो.",
-  "Computerized spectacle power": "संगणकीय चष्मा नंबर",
-  "Computer-assisted refraction for an accurate spectacle number, measured to fine precision.":
-    "संगणकाच्या साहाय्याने अत्यंत अचूक चष्मा नंबर मोजणी.",
-  "Eye injury & trauma care": "डोळ्यांच्या दुखापतीवर उपचार",
-  "Prompt assessment and treatment for eye injuries, foreign bodies and accidental trauma.":
-    "डोळ्यातील दुखापत, परकी वस्तू व अपघाती आघातावर तातडीने तपासणी व उपचार.",
+  "Phaco surgery without stitches": "बिना टाक्यांची फॅको शस्त्रक्रिया",
+  "Modern Phaco cataract surgery performed without stitches for a comfortable recovery.": "आरामदायक पुनर्प्राप्तीसाठी टाक्यांशिवाय केली जाणारी आधुनिक फॅको मोतीबिंदू शस्त्रक्रिया.",
+  "Painless and stitchless treatments": "वेदनारहित व बिना टाक्यांचे उपचार",
+  "Patient-focused eye treatments designed to minimize discomfort and avoid stitches whenever suitable.": "रुग्णाचा त्रास कमी ठेवण्यासाठी आणि योग्य असेल तेथे टाके टाळण्यासाठी नियोजित नेत्रउपचार.",
+  "Pterygium treatment without injection or stitches": "बिना इंजेक्शन व बिना टाक्यांचा टेरिजियम उपचार",
+  "Precise pterygium treatment planned without injections or stitches for suitable patients.": "योग्य रुग्णांसाठी इंजेक्शन व टाक्यांशिवाय नियोजित अचूक टेरिजियम उपचार.",
+  "Vision screening and computerized refraction": "दृष्टी तपासणी व संगणकीय चष्मा नंबर चाचणी",
+  "Complete vision screening with computerized refraction for an accurate spectacle prescription.": "अचूक चष्मा नंबरसाठी संपूर्ण दृष्टी तपासणी व संगणकीय रिफ्रॅक्शन चाचणी.",
+  "Eye injury and trauma care": "डोळ्यांच्या दुखापती व आघातांवर उपचार",
+  "Prompt assessment and treatment for eye injuries, foreign bodies and accidental trauma.": "डोळ्यांची दुखापत, परकी वस्तू व अपघाती आघातांवर त्वरित तपासणी व उपचार.",
+  "Retina and diabetic eye care": "रेटिना व मधुमेहाशी संबंधित नेत्रसेवा",
+  "Retinal evaluation and ongoing diabetic eye monitoring to help protect long-term vision.": "दीर्घकालीन दृष्टीचे संरक्षण करण्यासाठी रेटिना तपासणी व मधुमेहाशी संबंधित नेत्रस्थितीचे नियमित निरीक्षण.",
+  "YAG laser for secondary cataract": "दुय्यम मोतीबिंदूसाठी YAG लेसर उपचार",
+  "Available at selected timings on the second and fourth Friday of every month.": "दर महिन्याच्या दुसऱ्या व चौथ्या शुक्रवारी निवडक वेळेत उपलब्ध.",
+  "Glaucoma and vision screening": "काचबिंदू व दृष्टी तपासणी",
+  "Eye-pressure and visual-field screening to support early glaucoma detection and care.": "काचबिंदूचे लवकर निदान व उपचारासाठी डोळ्यांचा दाब आणि दृष्टिक्षेत्र तपासणी.",
+  "Treatment and lenses for every age group": "सर्व वयोगटांसाठी उपचार व विविध प्रकारच्या लेन्स",
+  "Eye-care options and suitable lens choices are available for patients of every age group.": "प्रत्येक वयोगटातील रुग्णांसाठी नेत्रउपचार आणि योग्य लेन्सचे विविध पर्याय उपलब्ध.",
   "Ayurvedic eye therapies": "आयुर्वेदिक नेत्रचिकित्सा",
-  "Tarpana, Shirodhara and allied therapies for Diabetic Retinopathy and digital eye strain.":
-    "मधुमेह रेटिनोपॅथी व डोळ्यांवरील डिजिटल ताणासाठी तर्पण, शिरोधारा व इतर चिकित्सा.",
-  "Retina & diabetic eye care": "पडदा व मधुमेह नेत्रसेवा",
-  "Detailed retinal imaging, laser diagnostics and ongoing monitoring that protects long-term vision.":
-    "सविस्तर पडदा तपासणी, लेसर निदान व दीर्घकालीन दृष्टीसाठी सतत देखरेख.",
-  "Glaucoma & vision screening": "काचबिंदू व दृष्टी तपासणी",
-  "Pressure checks and automated visual field testing for early, evidence-led intervention.":
-    "डोळ्यातील दाब तपासणी व स्वयंचलित दृष्टिक्षेत्र चाचणीद्वारे लवकर निदान.",
-  "Affordable, attractive spectacles": "परवडणारे व आकर्षक चष्मे",
-  "Anti-glare, blue-filter and premium lenses in stylish frames—quality eyewear at fair prices.":
-    "अँटी-ग्लेअर, ब्लू-फिल्टर व प्रीमियम लेन्स स्टायलिश फ्रेममध्ये—योग्य दरात दर्जेदार चष्मे.",
-  "Discharge within half an hour after surgery": "ऑपरेशननंतर अर्ध्या तासात डिस्चार्ज",
-  "Vehicle facility for outstation patients": "परगावच्या रुग्णांसाठी वाहनाची सोय",
-  "Injection-free, bandage-free, stitchless surgery": "बिना इंजेक्शन, बिना पट्टी, बिना टाक्यांचे ऑपरेशन",
+  "Tarpana, Shirodhara and other Ayurvedic therapies are offered after an appropriate eye assessment.": "योग्य नेत्रतपासणीनंतर तर्पण, शिरोधारा व इतर आयुर्वेदिक चिकित्सा दिली जाते.",
+  "Years of hospital service": "रुग्णालयाच्या सेवेची वर्षे",
+  "16 years of doctor experience": "डॉक्टरांचा १६ वर्षांचा अनुभव",
+  "10 years of hospital service": "रुग्णालयाची १० वर्षांची सेवा",
 
   // About
   "About Haripriyaa Netralaya": "हरिप्रिया नेत्रालयाविषयी",
@@ -138,8 +131,8 @@ export const mr: Record<string, string> = {
     "जिथे शस्त्रक्रियेतील अचूकता आणि शांत, वैयक्तिक लक्ष एकत्र येते असे आधुनिक नेत्ररुग्णालय.",
   "Dr. Neeta Ramesh Patil, eye surgeon and specialist": "डॉ. नीता रमेश पाटील, नेत्रशल्यचिकित्सक व तज्ज्ञ",
   "Your ophthalmologist": "तुमच्या नेत्रतज्ज्ञ डॉक्टर",
-  "With over nine years dedicated to medical and surgical ophthalmology, Dr. Neeta Ramesh Patil brings precise, compassionate eye care to patients across Islampur and Walwa taluka. Her philosophy is simple: explain clearly, recommend honestly, and treat gently.":
-    "नऊ वर्षांहून अधिक वैद्यकीय व शस्त्रक्रिया अनुभवासह डॉ. नीता रमेश पाटील इस्लामपूर व वाळवा तालुक्यातील रुग्णांना अचूक व आपुलकीची नेत्रसेवा देतात. त्यांचे तत्त्व सोपे आहे: स्पष्ट समजावणे, प्रामाणिक सल्ला देणे आणि सौम्य उपचार करणे.",
+  "Haripriyaa Netralaya has served the community for 10 years, while Dr. Neeta Ramesh Patil brings 16 years of experience in eye care. Her philosophy is simple: explain clearly, recommend honestly, and treat gently.":
+    "हरिप्रिया नेत्रालय गेली १० वर्षे समाजाची सेवा करत आहे, तर डॉ. नीता रमेश पाटील यांना नेत्रसेवेचा १६ वर्षांचा अनुभव आहे. त्यांचे तत्त्व सोपे आहे: स्पष्ट समजावणे, प्रामाणिक सल्ला देणे आणि सौम्य उपचार करणे.",
   "Phaco & MICS cataract surgery": "फॅको व MICS मोतीबिंदू शस्त्रक्रिया",
   "Retinal diagnostics": "पडदा तपासणी",
   "Glaucoma screening": "काचबिंदू तपासणी",
