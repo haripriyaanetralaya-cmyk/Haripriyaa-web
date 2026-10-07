@@ -141,6 +141,8 @@ export const mr: Record<string, string> = {
   "Inside the clinic": "रुग्णालयाच्या आत",
   "Designed around safety and ease.": "सुरक्षितता व सोयीसाठी रचलेले.",
   "Operation theatre": "ऑपरेशन थिएटर",
+  "Consultation room": "तपासणी कक्ष",
+  "Hospital facade": "रुग्णालयाची इमारत",
   "OPD consultation room": "ओपीडी तपासणी कक्ष",
   "Diagnostic laboratory": "निदान प्रयोगशाळा",
   "Optical display counter": "चष्मा विभाग",
