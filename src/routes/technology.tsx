@@ -1,7 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ScanEye, ShieldCheck, Sparkles } from "lucide-react";
 import technologyImage from "@/assets/technology-phaco.jpg";
-import clinicImage from "@/assets/clinic-gallery.jpg";
+import phacoMachineImage from "@/assets/tech-phaco-machine.jpg";
+import tonometerImage from "@/assets/tech-tonometer.jpg";
+import visualFieldImage from "@/assets/tech-visual-field.jpg";
 import { PageHero } from "@/components/page-hero";
 import { useLang } from "@/lib/i18n";
 
@@ -11,9 +13,9 @@ export const Route = createFileRoute("/technology")({ head: () => ({ meta: [
 ] }), component: TechnologyPage });
 
 const machines: [string, string, string][] = [
-  ["Advanced Phaco System","Micro-incision cataract removal with stable surgical control and a faster, more comfortable recovery.",technologyImage],
-  ["Non-contact Tonometer","Accurate eye-pressure screening with a gentle air pulse—no instrument touches the eye.",clinicImage],
-  ["Automated Visual Field Analyzer","Maps peripheral vision precisely to detect and monitor subtle glaucoma changes.",technologyImage],
+  ["Advanced Phaco System","Micro-incision cataract removal with stable surgical control and a faster, more comfortable recovery.",phacoMachineImage],
+  ["Non-contact Tonometer","Accurate eye-pressure screening with a gentle air pulse—no instrument touches the eye.",tonometerImage],
+  ["Automated Visual Field Analyzer","Maps peripheral vision precisely to detect and monitor subtle glaucoma changes.",visualFieldImage],
 ];
 
 const safetyItems = [
