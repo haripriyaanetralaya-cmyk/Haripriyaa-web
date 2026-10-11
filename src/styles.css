@@ -131,3 +131,14 @@ html[lang="mr"] .text-center h3.font-serif {
 @media (prefers-reduced-motion: no-preference) {
   .float-soft { animation: float-soft 5s ease-in-out infinite; }
 }
+/* Hide Lovable / GPT Engineer Badge */
+#lovable-badge,
+[data-lovable-badge],
+a[href*="lovable.dev"],
+iframe[src*="lovable"],
+div[class*="lovable"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
